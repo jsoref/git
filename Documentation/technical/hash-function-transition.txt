@@ -275,7 +275,7 @@ object:
 1. Write the loose object to a temporary file, like today.
 2. Open loose-object-idx.lock with O_CREAT | O_EXCL to acquire the lock.
 3. Rename the loose object into place.
-4. Open loose-object-idx with O_APPEND and write the new object
+4. Open loose-object-idx with O_APPEND and write the new object.
 5. Unlink loose-object-idx.lock to release the lock.
 
 To remove entries (e.g. in "git pack-refs" or "git-prune"):
