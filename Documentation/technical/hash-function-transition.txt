@@ -354,7 +354,7 @@ the following steps:
    pack. Record the new sha1<->sha256 mapping entry for use in the idx.
 4. sort: reorder entries in the new pack to match the order of objects
    in the pack the server generated and include blobs. Write a sha256 idx
-   file
+   file.
 5. clean up: remove the SHA-1 based pack file, index, and
    topologically sorted list obtained from the server in steps 1
    and 2.
